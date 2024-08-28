@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",               // or "ESNext", depending on your needs
+      "module": "NodeNext",
+      "moduleResolution": "NodeNext",
+      "strict": true,                // Optional: enables all strict type-checking options
+      "esModuleInterop": true,       // Optional: enables interoperability between CommonJS and ES Modules
+      "skipLibCheck": true,          // Optional: skips type checking of declaration files
+      "forceConsistentCasingInFileNames": true // Optional: enforces consistent casing in file names
+    },
+    "include": ["src/**/*.ts"],      // Adjust as needed
+    "exclude": ["node_modules"]
+  }
+  
