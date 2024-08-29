@@ -1,6 +1,6 @@
-import IWeapon from "../interface/weapon.interface";
+import IItem from "../interface/item.interface";
 
-export class FuturisticItemFactory implements IWeapon {
+export class FuturisticItemFactory implements IItem {
     getName(): string {
         return 'Plasma Gun'
     }
